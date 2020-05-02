@@ -7,7 +7,7 @@
   top: 0;
   left: 0;
   z-index: 3; */
-  box-shadow: 10px 5px rgba(0, 0, 0, 0.3);
+  text-shadow: 10px 5px rgba(0, 0, 0, 0.3);
   margin: 20px;
 }
 
@@ -42,6 +42,7 @@
   z-index: 2; */
   /* border: 10px solid blue; */
 /* margin: 0 auto; */
+text-shadow: 10px 5px 3px rgba(0, 0, 0, 0.3);
 box-shadow: 10px 5px 3px rgba(0, 0, 0, 0.3);
 margin: 20px;
 }
@@ -71,3 +72,12 @@ margin: 20px;
   right: 0px;
   
 } */
+
+header {
+  height: 80px;
+  /* background-color: pink; */
+  /* background-image: url(../img/header.png); */
+  /* background-size: cover; */
+  /* background-position: center; */
+  background: center/cover pink url(../img/header.png);
+}
