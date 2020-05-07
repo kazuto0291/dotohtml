@@ -48,3 +48,8 @@ main > :nth-child(even) {
 main > h2:nth-of-type(even) {
   background-color: pink;
 }
+
+
+li:not(:empty) {
+  background-color: skyblue;
+}
