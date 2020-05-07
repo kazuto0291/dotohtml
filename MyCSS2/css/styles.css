@@ -3,5 +3,48 @@
 }
 
 * {
-  font-size: 12px;
+  /* font-size: 12px; */
+}
+
+/* [target] {
+  font-weight: bold;
+} */
+
+[href^="https"] {
+  font-weight: bold;
+}
+
+h1::before,
+h2::before {
+  content:'- '
+}
+
+h1::after,
+h2::after {
+  content: attr(data-subtitle);
+}
+
+.btn {
+  width: 100px;
+  background-color: skyblue;
+  text-align: center;
+  padding: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.5;
+}
+
+/* main > :nth-child(odd) {
+  background-color: red;
+}
+
+main > :nth-child(even) {
+  background-color: pink;
+} */
+
+main > h2:nth-of-type(even) {
+  background-color: pink;
 }
