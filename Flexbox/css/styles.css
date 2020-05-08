@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.box1 {
+  background-color: orange;
+}
+
+.box2 {
+  background-color: skyblue;
+  flex: 1;
+}
+
+.box3 {
+  background-color: tomato;
+}
